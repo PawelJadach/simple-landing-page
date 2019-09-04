@@ -41,6 +41,25 @@ html {
   }
 }
 
+h2.title {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h3.subtitle {
+  font-size: 16px;
+  color: $color-second;
+  font-style: italic;
+  margin-bottom: 80px;
+}
+
+h3.services-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 /* HEADER */
 header {
   background-image: url("../images/header-bg.jpg");
@@ -102,5 +121,34 @@ header {
       margin-bottom: 60px;
       text-transform: uppercase;
     }
+  }
+}
+
+/* SERVICES */
+div.services {
+  text-align: center;
+  margin: 120px auto;
+
+  i {
+    color: $color-main;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    line-height: 70px;
+    border: 3px solid $color-main;
+    border-radius: 50%;
+    transition: 0.3s;
+    margin-bottom: 25px;
+    &:hover {
+      background: $color-main;
+      color: $color-thin;
+    }
+  }
+
+  p {
+    font-family: $font-second;
+    font-size: 14px;
+    color: $color-second;
+    margin-top: 20px;
   }
 }
