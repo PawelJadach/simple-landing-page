@@ -61,6 +61,7 @@ header {
   background-size: cover;
   background-position: center;
   object-fit: cover;
+  background-attachment: fixed;
 }
 
 header nav {

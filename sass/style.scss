@@ -68,7 +68,7 @@ header {
   background-size: cover;
   background-position: center;
   object-fit: cover;
-
+  background-attachment: fixed;
   nav {
     height: 50px;
 
@@ -207,7 +207,4 @@ footer {
       margin-top: 30px;
     }
   }
-}
-
-@media (max-width: 800px) {
 }
