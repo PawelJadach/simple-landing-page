@@ -146,4 +146,15 @@ div.services p {
   margin-top: 20px;
 }
 
+/* PORTFOLIO */
+section.portfolio {
+  text-align: center;
+  padding: 120px 0;
+  background: #f7f7f7;
+}
+
+section.portfolio h3.services-title {
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
