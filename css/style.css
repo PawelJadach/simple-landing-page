@@ -157,4 +157,41 @@ section.portfolio h3.services-title {
   margin-top: 20px;
 }
 
+/* FOOTER */
+footer {
+  padding: 40px 0;
+}
+
+footer p {
+  font-size: 14px;
+  letter-spacing: -1px;
+  display: inline-block;
+}
+
+footer ul {
+  margin-left: 130px;
+  display: inline-block;
+  list-style: none;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  font-size: 0;
+}
+
+footer ul li i.fab {
+  font-size: 20px;
+  color: white;
+  background: #222222;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -163,3 +163,37 @@ section.portfolio {
     margin-top: 20px;
   }
 }
+
+/* FOOTER */
+footer {
+  padding: 40px 0;
+  p {
+    font-size: 14px;
+    letter-spacing: -1px;
+    display: inline-block;
+  }
+
+  ul {
+    margin-left: 130px;
+    display: inline-block;
+    list-style: none;
+    li {
+      display: inline-block;
+      a {
+        font-size: 0;
+      }
+
+      i.fab {
+        font-size: 20px;
+        color: white;
+        background: #222222;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 15px;
+      }
+    }
+  }
+}
